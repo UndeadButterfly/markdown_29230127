@@ -1,6 +1,28 @@
 # markdown_29230127
 마크다운 설명
 
+### 7. 하이퍼 링크
+[e클래스](http://cafe.daum.net/pcwk "e클래스의 cafe입니다.")
+
+
+### 6. 가로 라인
+---
+***
+------
+
+### 5. 코드블록
+```
+def index(request):
+    """question list"""
+    # list order create_date desc
+    question_list = Question.objects.order_by('-create_date')  # order_by('-필드') desc,order_by('필드') asc
+    # question_list = Question.objects.filter(id=99)
+    context = {'question_list': question_list}
+    print('question_list:{}'.format(question_list))
+    return render(request, 'pybo/question_list.html', context)
+```
+
+
 ### 4. 목록
 1. 아이템1
 2. 아이템2  

@@ -3,7 +3,8 @@
 
 ### 프로젝트 readme.md
 1. 주제  
-  프로젝트 주제 설명  
+  SOLAR EMBASSY
+  motive by Lunar Embassy & DCinside & inven
 2. 기획  
   태양계 컨셉의 종합 커뮤니티 사이트 개발  
 3. 설계  

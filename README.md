@@ -1,8 +1,27 @@
 # markdown_29230127
 마크다운 설명
 
+### 11. 표
+|번호|아이디|이름|레벨|이메일|등록일|
+|:--------|:--------|:--------|--------:|:--------|:--------:|
+|1  |james|이상무1|1|jamesol@paran.com|2023-01-27|
+|2  |james|이상무2|1|jamesol@paran.com|2023-01-27|
+|3  |james|이상무3|1|jamesol@paran.com|2023-01-27|
+|4  |james|이상무4|1|jamesol@paran.com|2023-01-27|
+|5  |james|이상무5|1|jamesol@paran.com|2023-01-27|
+|6  |james|이상무6|1|jamesol@paran.com|2023-01-27|
+
+### 10. 인라인
+문단 중간에 `CODE`를 넣을 수 있습니다.  (고정 폭 폰트를 표시해야 할 때 사용)
+예를 들어 `question_list=Question.objects.order_by('-create_date')`처럼
+
+
+### 9. 강조
+**Spring**을 만끽하세요.  
+*Spring*을 만끽하세요.
+
 ### 8. 이미지 넣기
-![]()
+![사과](doc/사과.jpg "사과")
 
 
 ### 7. 하이퍼 링크
